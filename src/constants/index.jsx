@@ -2,23 +2,23 @@ export const features = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    caption: "Fokus pada Produktivitas & Otomatisasi",
+    title: "Bekerja Cerdas, Bukan Keras",
+    text: "Ucapkan selamat tinggal pada tugas-tugas manual yang membosankan. Dengan otomatisasi dan alur proses cerdas KaryaFlow, produktivitas Anda akan melesat ke level baru. Ini seperti mendapat secangkir kopi ekstra, tetapi tanpa rasa cemas..",
     button: {
       icon: "/images/magictouch.svg",
-      title: "Watch the demo",
+      title: "Tonton Demo Produktivitas",
     },
   },
   {
     id: "1",
     icon: "/images/feature-2.png",
-    caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    caption: "Fokus pada Keamanan",
+    title: "Aman & Terpercaya. Kami Menjaga Anda.",
+    text: "Keamanan data Anda adalah prioritas utama kami. Dengan enkripsi state-of-the-art dan kontrol privasi yang kuat, KaryaFlow menjaga informasi sensitif Anda tetap aman—terkunci lebih rapat dari Fort Knox..",
     button: {
       icon: "/images/docs.svg",
-      title: "Read the docs",
+      title: "Baca Dokumentasi Keamanan",
     },
   },
 ];
@@ -61,9 +61,9 @@ export const faq = [
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "Aman & Terpercaya. Kami Menjaga Anda.",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Keamanan data Anda adalah prioritas utama kami. Dengan enkripsi state-of-the-art dan kontrol privasi yang kuat, KaryaFlow menjaga informasi sensitif Anda tetap aman—terkunci lebih rapat dari Fort Knox.",
   },
   {
     id: "3",

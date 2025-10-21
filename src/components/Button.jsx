@@ -32,13 +32,17 @@ const Button = ({
       <span className="glow-before glow-after" />
     </>
   );
+
+  const isExternal = href && /^(https?:)?\/\//i.test(href);
+
   return href ? (
     <a
       className={clsx(
         "relative p-0.5 g5 rounded-2xl shadow-500 group",
-        containerClassName,
+        containerClassName
       )}
       href={href}
+      {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
     >
       <Inner />
     </a>
@@ -46,7 +50,7 @@ const Button = ({
     <button
       className={clsx(
         "relative p-0.5 g5 rounded-2xl shadow-500 group",
-        containerClassName,
+        containerClassName
       )}
       onClick={onClick}
     >
